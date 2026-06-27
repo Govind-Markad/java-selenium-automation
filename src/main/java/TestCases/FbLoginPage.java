@@ -1,4 +1,4 @@
-package javaPract;
+package TestCases;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 
-public class FbLogin {
+public class FbLoginPage {
 
     public static void main(String[] args) throws IOException {
 
@@ -35,7 +35,7 @@ public class FbLogin {
                 new File("src/main/resources/screenshots/fb_login_page.png")
         );
         System.out.println("Test cases Passed");
-driver.quit();
+        driver.quit();
         // Close the browser
         driver.quit();
 
